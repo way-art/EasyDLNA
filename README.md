@@ -8,6 +8,12 @@
 
 **EasyDLNA** is a lightweight DLNA casting tool written in Swift. It encapsulates the SSDP discovery protocol and SOAP control protocol, providing a simple and easy-to-use API for iOS developers to implement screen casting functionalities (Play, Pause, Seek, Volume Control, etc.) on Smart TVs or TV Boxes.
 
+### Installation
+
+```ruby
+pod 'EasyDLNA', :git => 'https://github.com/way-art/EasyDLNA.git'
+```
+
 ### 1. iOS DLNA Principles & Permissions
 
 #### Principles
@@ -115,6 +121,12 @@ DLNAManager.shared.seek(to: 60) // Seek to 60 seconds
 ## <a id="中文说明">中文说明</a>
 
 **EasyDLNA** 是一个使用 Swift 编写的轻量级 DLNA 投屏工具。它封装了底层 SSDP 发现协议和 SOAP 控制协议，为 iOS 开发者提供了一套简单易用的 API，用于实现向智能电视或电视盒子投送视频、控制播放（播放、暂停、进度跳转等）的功能。
+
+### 安装
+
+```ruby
+pod 'EasyDLNA', :git => 'https://github.com/way-art/EasyDLNA.git'
+```
 
 ### 1. iOS DLNA 原理与权限要求
 
